@@ -3,6 +3,7 @@
 <map>
     <title>Microsoft Teams User Guide</title>
     <topicref href="Topics/c_getting_started_with_microsoft_teams.dita">
+        <topicref href="microsoft_teams_user_guide.pdf" format="pdf"/>
         <topicref href="Topics/r_system_requirements_for_teams_on_windows.dita"/>
         <topicref href="Topics/r_system_requirements_for_teams_on_mac.dita"/>
         <topicref href="Topics/t_installing_microsoft_teams.dita"/>
