@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Microsoft Teams User Guide</title>
+    <topicref href="Topics/c_getting_started_with_microsoft_teams.dita">
+        <topicref href="Topics/r_system_requirements_for_teams_on_windows.dita"/>
+        <topicref href="Topics/r_system_requirements_for_teams_on_mac.dita"/>
+        <topicref href="Topics/t_installing_microsoft_teams.dita"/>
+        <topicref href="Topics/t_signing_in.dita"/>
+        <topicref href="Topics/t_starting_a_new_chat.dita"/>
+    </topicref>
+    <topicref href="Topics/c_the_use_of_microsoft_teams.dita">
+        <topicref href="Topics/t_making_video_calls.dita"/>
+        <topicref href="Topics/t_creating_a_team.dita"/>
+        <topicref href="Topics/t_creating_a_breakout_room.dita"/>
+        <topicref href="Topics/t_sharing_files.dita"/>
+    </topicref>
+    <reltable title="References">
+        <relrow>
+            <relcell>
+                <topicref href="Topics/c_getting_started_with_microsoft_teams.dita"/>
+            </relcell>
+            <relcell>
+                <topicref href="Topics/c_the_use_of_microsoft_teams.dita"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref href="Topics/r_system_requirements_for_teams_on_windows.dita"
+                    linking="targetonly"/>
+                <topicref href="Topics/r_system_requirements_for_teams_on_mac.dita"
+                    linking="targetonly"/>
+                <topicref href="Topics/t_installing_microsoft_teams.dita" linking="targetonly"/>
+                <topicref href="Topics/t_signing_in.dita" linking="targetonly"/>
+                <topicref href="Topics/t_starting_a_new_chat.dita" linking="targetonly"/>
+            </relcell>
+            <relcell>
+                <topicref href="Topics/t_making_video_calls.dita" linking="targetonly"/>
+                <topicref href="Topics/t_creating_a_team.dita" linking="targetonly">
+                    <topicref href="Topics/t_creating_a_breakout_room.dita" linking="targetonly"/>
+                </topicref>
+                <topicref href="Topics/t_sharing_files.dita" linking="targetonly"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>
